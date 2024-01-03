@@ -1,0 +1,34 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/i18n": "^8.0.0-rc.5",
+    "@nuxtjs/supabase": "^1.1.3",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@vueuse/core": "^10.4.1",
+    "@vueuse/nuxt": "^10.4.1",
+    "nuxt": "^3.7.3",
+    "nuxt-icon": "^0.5.0",
+    "video.js": "^8.6.1"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.0.0-rc.2",
+    "@vexip-ui/nuxt": "^1.1.0",
+    "@videojs/http-streaming": "^3.8.0",
+    "dotenv": "^16.3.1",
+    "flowbite": "^1.8.1",
+    "flowbite-datepicker": "^1.2.2",
+    "hls.js": "^1.4.13",
+    "vue-hls-video-player": "^1.0.1",
+    "vue-tailwind-datepicker": "^1.4.6"
+  }
+}
